@@ -1,0 +1,145 @@
+/*
+Google fonts
+font-family: 'Josefin Slab', serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Rock Salt', cursive;
+*/
+
+/******************************TAG SELECTORS********************************/
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  color: #36622B;
+}
+h1 {
+  margin-top: 0;
+  padding-top: 11%;
+  font-family: "Rock Salt", cursive;
+  font-size: 3rem;
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+h2 {
+  font-family: "Josefin Slab", serif;
+  font-size: 2.5rem;
+}
+h3 {
+  font-family: "Josefin Slab", serif;
+  font-size: 2rem;
+}
+p {
+  padding: 0;
+}
+hr {
+  border-style: dashed none none;
+  width: 10%;
+  border-width: 7px;
+  color: #C6E377;
+  margin: 3rem auto;
+}
+a {
+  text-decoration: none;
+  color: #36622B;
+}
+
+/*****************************CLASS SELECTORS********************************/
+.subtitle {
+  margin: 0 auto;
+  font-weight: bolder;
+}
+.top-container {
+  background-color: #C6E377;
+  position: relative;
+  height: 100%;
+}
+.middle-container {
+  padding-bottom: 100px;
+  background-color: #FBFAD3;
+}
+.btn {
+  background: #729D39;
+  background-image: -webkit-linear-gradient(top, #729D39, #36622B);
+  background-image: -moz-linear-gradient(top, #729D39, #36622B);
+  background-image: -ms-linear-gradient(top, #729D39, #36622B);
+  background-image: -o-linear-gradient(top, #729D39, #36622B);
+  background-image: linear-gradient(to bottom, #729D39, #36622B);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 8px;
+  font-family: "Raleway", sans-serif;
+  color: #FBFAD3;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #C6E377;
+  background-image: -webkit-linear-gradient(top, #C6E377, #729D39);
+  background-image: -moz-linear-gradient(top, #C6E377, #729D39);
+  background-image: -ms-linear-gradient(top, #C6E377, #729D39);
+  background-image: -o-linear-gradient(top, #C6E377, #729D39);
+  background-image: linear-gradient(to bottom, #C6E377, #729D39);
+  text-decoration: none;
+}
+.bottom-container {
+  padding-top: 25px;
+  background-color: #729D39;
+  line-height: 2;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  padding: 0;
+  line-height: 2;
+}
+.profile-img {
+  width: 12.5%;
+  margin-top: 50px;
+}
+.top-cloud {
+  position: absolute;
+  right: 250px;
+  top: 150px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.mountain-img {
+  padding: 0;
+}
+.violin-img {
+  width: 25%;
+  background-color: #FBFAD3;
+  float: left;
+  margin-right: 30px;
+}
+.cooking-img {
+  width: 25%;
+  margin-top: 2rem;
+  float: right;
+  margin-left: 30px;
+}
+.copyright {
+  color: #FBFAD3;
+}
+.footer-link {
+  text-decoration: none;
+  color: #36622B;
+  margin: 25px;
+}
+.footer-link:hover {
+  color: #FBFAD3;
+  text-decoration: underline;
+}
+.contact-description {
+  width: 30%;
+  padding-bottom: 50px;
+  margin: auto;
+}
